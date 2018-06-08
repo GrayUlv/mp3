@@ -8,12 +8,36 @@ export class Home extends React.Component{
     
     render(){
         return (
-            <div className="text-center mt-5">
-                <h1>Hello Rigo!</h1>
-                <p><img src={rigoImage} /></p>
-                <a href="#" className="btn btn-success">If you see this green button... bootstrap is working</a>
-                <p>Made by <a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with love!</p>
-            </div>
+            <table className="table table-dark">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">First</th>
+                        <th scope="col">Last</th>
+                        <th scope="col">Handle</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                    </tr>
+                </tbody>
+            </table>
         );
     }
 }
