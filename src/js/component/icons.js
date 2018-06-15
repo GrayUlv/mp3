@@ -12,6 +12,7 @@ import fontawesome from '@fortawesome/fontawesome';
 import faPlay from '@fortawesome/fontawesome-free-solid/faPlay';
 import faBackward from '@fortawesome/fontawesome-free-solid/faBackward';
 import faForward from '@fortawesome/fontawesome-free-solid/faForward';
+import faPause from '@fortawesome/fontawesome-free-solid/faPause';
 
 /**
  * 3) Tell font-awesome that you want to replace your icons with SVGs (recomended for performance)
@@ -24,7 +25,7 @@ fontawesome.config = {
  * 4) Add the icons into the font-awesome library
 */
 fontawesome.library.add(
-    faPlay, faBackward,  faForward
+    faPlay, faBackward,  faForward, faPause
 );
 
 
